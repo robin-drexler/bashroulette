@@ -18,7 +18,7 @@ app.all('/pullthetrigger', function (req, res) {
 
 
 exports.start = function(cb) {
-  server = app.listen(3000, function () {
+  server = app.listen(3003, function () {
     var host = server.address().address;
     var port = server.address().port;
     if (cb) {
